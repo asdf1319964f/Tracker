@@ -16,7 +16,7 @@ urls = [
 output_file = "all.txt"
 
 # 获取当前时间并格式化为所需格式
-current_time = datetime.now().strftime("# %Y/%m/%d [%I/%M/%S %p]\n")
+current_time = datetime.now().strftime("# %Y/%m/%d [%I:%M:%S %p]\n")
 
 # 打开输出文件并写入时间戳和内容
 with open(output_file, 'w', encoding='utf-8') as file:
