@@ -3,10 +3,12 @@ from datetime import datetime
 
 # 文件 URLs 列表
 urls = [
-    "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all.txt",
-    "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ip.txt",
     "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best.txt",
-    "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_best_ip.txt",
+    "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all.txt",
+    "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_udp.txt",
+    "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_http.txt",
+    "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_https.txt",
+    "https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ws.txt",
     "https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/all.txt",
     "https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/best.txt",
     "https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/http.txt"
