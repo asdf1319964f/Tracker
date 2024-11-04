@@ -6,6 +6,9 @@ on:
   #   - cron: '0 0 * * *'
   workflow_dispatch:  # 手动触发
 
+env:
+  TZ: Asia/Shanghai  # 设置时区为北京时间
+
 jobs:
   run-tracker:
     runs-on: ubuntu-latest
