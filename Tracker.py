@@ -1,5 +1,6 @@
 import requests
 from datetime import datetime
+import pytz
 
 # 文件 URLs 列表
 urls = [
@@ -17,8 +18,9 @@ urls = [
 # 合并内容保存的文件名
 output_file = "all.txt"
 
-# 获取当前时间并格式化为所需格式
-current_time = datetime.now().strftime("# %Y/%m/%d [%I:%M:%S %p]\n")
+# 设置为北京时间
+beijing_tz = pytz.timezone("Asia/Shanghai")
+current_time = datetime.now(beijing_tz).strftime("# %Y/%m/%d [%I:%M:%S %p]\n")
 
 # 打开输出文件并写入时间戳和内容
 with open(output_file, 'w', encoding='utf-8') as file:
