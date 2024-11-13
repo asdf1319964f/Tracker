@@ -2,10 +2,28 @@
 
 ### 合集 
 * https://raw.githubusercontent.com/fgr178707/Tracker/refs/heads/main/all.txt<br>
-*包含下方所有的 Tracker <br>目前为手动运行 GitHub Actions 进行更新*
+*包含下方所有的 [Tracker](#项目来源) <br>目前为手动运行 GitHub Actions 进行更新*
 ### 问题反馈 
 * https://github.com/fgr178707/Tracker/discussions/new/choose
----
+----
+### 使用教程
+
+#### BitComet (比特彗星):
+
+> **官方网站：http://www.bitcomet.com**<br>
+<img src="img/1.png" width="50%">
+----
+
+#### qBittorrent Enhanced Edition (增强版):
+> **Github：https://github.com/c0re100/qBittorrent-Enhanced-Edition <br>**
+<img src="img/2.png" alt="图片出自于 XIU2/TrackersListCollection" width="50%">
+----
+
+#### qBittorrent:
+> **官方网站：https://www.qbittorrent.org<br>需要通过浏览器打开网页全选内容复制粘贴<br>**
+<img src="img/3.png" alt="图片出自于 XIU2/TrackersListCollection"  width="50%">
+
+----
 
 ### 项目来源
 
