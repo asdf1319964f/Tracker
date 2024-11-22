@@ -1,6 +1,8 @@
 name: Tracker服务器合并
 
 on:
+  schedule:
+    - cron: '0 21 * * *'  # UTC 时间 21 点对应北京时间次日 5 点
   workflow_dispatch:  # 手动触发工作流
 
 env:
