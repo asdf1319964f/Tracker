@@ -2,7 +2,8 @@
 
 ### 合集 
 * https://github.com/fgr178707/Tracker/raw/main/all.txt<br>
-*包含下方所有的 [Tracker](#项目来源) <br>目前为手动运行 GitHub Actions 进行更新*
+*包含下方所有的 [Tracker](#项目来源) <br>目前为自动运行 GitHub Actions <br>UTC 时间 21 点对应北京时间次日 5 点*
+ 后续会根据 [TrackersListCollection](#xiu2trackerslistcollection) [trackerslist](#ngosangtrackerslist)更新时间进行调整
 ### 问题反馈 
 * https://github.com/fgr178707/Tracker/discussions/new/choose
 
