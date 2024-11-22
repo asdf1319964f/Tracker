@@ -20,9 +20,11 @@ output_file = "all.txt"
 with open(output_file, 'w', encoding='utf-8') as file:
     for url in urls:
         try:
-            response = requests.get(url)
+            response = requests.get(url, timeout=10)  # 增加超时时间避免长时间卡住
             response.raise_for_status()  # 检查请求是否成功
-            file.write(response.text + "\n")  # 写入内容并添加换行符
-        except requests.exceptions.RequestException:
-            # 发生错误时不做任何处理
-            pass
+            # 写入内容，保留换行符，只移除空行
+            for line in response.text.splitlines():
+                if line.strip():  # 只写入非空行
+                    file.write(line + "\n")  # 保留换行符
+        except requests.exceptions.RequestException as e:
+            print(f"下载失败：{url}，错误信息：{e}")
