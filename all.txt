@@ -1,10 +1,5 @@
-udp://tracker.opentrackr.org:1337/announce
-udp://open.demonii.com:1337/announce
-udp://open.stealth.si:80/announce
-udp://tracker.torrent.eu.org:451/announce
-udp://tracker.skyts.net:6969/announce
-udp://exodus.desync.com:6969/announce
-udp://tracker.qu.ax:6969/announce
+下载失败：https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_https.txt，错误信息：429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_https.txt
+u.ax:6969/announce
 udp://tracker.dump.cl:6969/announce
 udp://tracker.bittor.pw:1337/announce
 udp://tracker-udp.gbitt.info:80/announce
@@ -228,18 +223,6 @@ http://t.overflow.biz:6969/announce
 http://p4p.arenabg.com:1337/announce
 http://tracker1.itzmx.com:8080/announce
 http://1337.abcvg.info:80/announce
-https://tracker.zhuqiy.top:443/announce
-https://tracker.yemekyedim.com:443/announce
-https://tracker.moeblog.cn:443/announce
-https://tracker.lilithraws.org:443/announce
-https://tracker.leechshield.link:443/announce
-https://tracker.ghostchu-services.top:443/announce
-https://tracker.gcrenwp.top:443/announce
-https://tracker.expli.top:443/announce
-https://tracker.bt4g.com:443/announce
-https://tr.zukizuki.org:443/announce
-https://tr.nyacat.pw:443/announce
-https://sparkle.ghostchu-services.top:443/announce
 wss://tracker.btorrent.xyz:443
 wss://tracker.webtorrent.dev:443
 wss://tracker.ghostchu-services.top:443/announce
