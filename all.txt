@@ -1,10 +1,5 @@
-udp://tracker.opentrackr.org:1337/announce
-udp://open.demonii.com:1337/announce
-udp://open.stealth.si:80/announce
-udp://tracker.torrent.eu.org:451/announce
-udp://explodie.org:6969/announce
-udp://tracker.ololosh.space:6969/announce
-udp://tracker.dump.cl:6969/announce
+下载失败：https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ws.txt，错误信息：429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ws.txt
+ker.dump.cl:6969/announce
 udp://tracker.bittor.pw:1337/announce
 udp://retracker01-msk-virt.corbina.net:80/announce
 udp://p4p.arenabg.com:1337/announce
@@ -248,10 +243,6 @@ https://tr.zukizuki.org:443/announce
 https://tr.nyacat.pw:443/announce
 https://sparkle.ghostchu-services.top:443/announce
 https://tracker.expli.top:443/announce
-wss://tracker.webtorrent.dev:443
-wss://tracker.files.fm:7073/announce
-wss://tracker.btorrent.xyz:443
-ws://tracker.files.fm:7072/announce
 http://1337.abcvg.info:80/announce
 http://207.241.226.111:6969/announce
 http://207.241.231.226:6969/announce
