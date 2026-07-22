@@ -1,9 +1,5 @@
-udp://tracker.publictracker.xyz:6969/announce
-http://tracker.opentrackr.org:1337/announce
-udp://open.demonii.com:1337/announce
-udp://open.tracker.cl:1337/announce
-udp://open.stealth.si:80/announce
-udp://tracker.torrent.eu.org:451/announce
+下载失败：https://raw.githubusercontent.com/ngosang/trackerslist/master/trackers_all_ws.txt，错误信息：HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=10)
+rrent.eu.org:451/announce
 udp://tracker.qu.ax:6969/announce
 udp://tracker.ilibr.org:6969/announce
 udp://tracker.corpscorp.online:80/announce
@@ -224,10 +220,6 @@ https://shahidrazi.online:443/announce
 https://pybittrack.retiolus.net:443/announce
 https://open.ftorrent.com:443/announce
 https://004430.xyz:443/announce
-wss://tracker.webtorrent.dev:443
-wss://tracker.openwebtorrent.com:443
-wss://open.ftorrent.com:443
-wss://tracker.btorrent.xyz:443
 http://004430.xyz:80/announce
 http://107.189.2.131:1337/announce
 http://1337.abcvg.info:80/announce
